@@ -12,6 +12,8 @@ namespace TestnaAplikacija
         {
             //to je drugi test
             //to je sprememba
+            Console.WriteLine("Uspeh!");
+            Console.ReadLine();
         }
     }
 }
