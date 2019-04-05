@@ -8,6 +8,7 @@ namespace TestnaAplikacija
 {
     class Program
     {
+	sprememba
         static void Main(string[] args)
         {
             //to je drugi test
