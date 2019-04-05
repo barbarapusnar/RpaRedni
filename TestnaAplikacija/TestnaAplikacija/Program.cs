@@ -11,7 +11,9 @@ namespace TestnaAplikacija
         static void Main(string[] args)
         {
             //to je drugi test
+            //se ena sprememba
             //to je sprememba
+
         }
     }
 }
