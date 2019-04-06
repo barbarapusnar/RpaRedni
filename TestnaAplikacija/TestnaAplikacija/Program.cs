@@ -14,6 +14,8 @@ namespace TestnaAplikacija
             //to je sprememba
             //to je MOJA SPREMEMBA
             //še ena moja sprememba
+            //Test sprememba
+            //What
         }
     }
 }
