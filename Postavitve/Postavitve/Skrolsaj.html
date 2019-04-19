@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ScrollSpy</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Scroll spy</h2>
+            <div style="position:relative;">
+                <!--navigacija-->
+                <nav class="navbar navbar-default navbar-static-top" 
+                     role="navigation" id="navbarspy">
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#prvi">Prvi</a></li>
+                            <li><a href="#drugi">Drugi</a></li>
+                            <li><a href="#tretji">Tretji</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--vsebina-->
+                <div data-target="#navbarspy" data-spy="scroll" 
+                     style="height:150px;overflow-y:scroll;position:relative;">
+                    <div id="prvi">
+                        <h2>Prvi</h2>
+                        Integer vel fringilla enim, eu ullamcorper ante. Integer porta efficitur neque, eget auctor libero lobortis et. In sed dignissim elit. Phasellus sapien sem, ullamcorper sed libero id, mattis maximus lorem. Morbi lobortis nisl erat, vel volutpat ex luctus nec. Praesent et libero id est efficitur porttitor. Sed nisi nulla, molestie in ligula vitae, posuere blandit nunc. Integer sit amet turpis sit amet dui faucibus auctor. Nullam non nunc a eros molestie finibus sit amet vel urna. Cras at nisl sit amet libero lacinia mollis at a turpis. Proin purus magna, egestas a rhoncus ut, elementum id ex. Phasellus porttitor condimentum odio non pellentesque. Curabitur aliquam enim eget blandit rhoncus. Aliquam erat volutpat.
+                        Morbi malesuada metus sit amet dolor molestie, vel convallis libero interdum. Sed porttitor nisl justo, a tempus ligula convallis vel. Sed ultrices tristique feugiat. Proin lacinia nisl eu dignissim cursus. Integer lobortis ornare dolor at tincidunt. Suspendisse in nulla ac felis aliquet porttitor a eu dolor. Sed laoreet ante ut enim dictum faucibus.
+                    </div>
+                    <div id="drugi">
+                        <h2>Drugi</h2>
+                        Etiam iaculis porta lectus sed tempor. Nunc id orci condimentum urna convallis porttitor eu lacinia lectus. Etiam eu semper erat. Fusce id ipsum et dolor facilisis accumsan et eu arcu. Integer congue eleifend neque et dapibus. Suspendisse consequat odio quam. In elementum tincidunt nulla ac suscipit. Praesent aliquet, ipsum id molestie faucibus, magna tellus facilisis turpis, nec faucibus velit lacus porta augue. Morbi eget aliquet leo. Maecenas accumsan, elit sit amet varius molestie, ante urna aliquam diam, eget tempor sem nulla id mauris. Praesent vitae libero bibendum, hendrerit odio eget, lacinia nisi. Phasellus nulla nulla, ornare eu tincidunt at, feugiat sed magna. Pellentesque feugiat ornare lectus a mattis. Sed malesuada, diam vehicula condimentum consectetur, odio dui pharetra ligula, consequat fringilla massa nibh lobortis quam. Mauris lectus nunc, eleifend mattis ex faucibus, aliquet fermentum lorem. Curabitur volutpat urna ac urna commodo vulputate.
+                        Nullam gravida est vitae semper vehicula. Donec augue sapien, interdum non tincidunt ullamcorper, dapibus ac diam. Maecenas cursus orci quis nunc aliquam, non ornare justo aliquam. Vivamus eget tortor egestas, efficitur diam vitae, facilisis libero. Quisque eget fringilla nibh. Nullam a pulvinar turpis. Praesent convallis nulla magna, quis hendrerit nisl viverra nec. Vivamus volutpat imperdiet urna, et mollis est mattis ac. Duis lacinia, neque vel convallis tristique, sem sem tempus lacus, a pellentesque tellus ligula id ipsum. Suspendisse egestas magna est, sed tempus ante condimentum at. Mauris dictum augue urna, non euismod tortor vestibulum et. In lobortis vitae purus sed accumsan.
+                    </div>
+                    <div id="tretji">
+                        <h2>Tretji</h2>
+                        Vestibulum ac tincidunt elit. Ut faucibus blandit consequat. Nulla aliquam auctor massa. Proin hendrerit nunc magna, eget rutrum nibh tincidunt a. Nunc diam sapien, elementum ut hendrerit eget, dictum nec nunc. Mauris et rutrum tellus, et accumsan ex. Quisque pharetra semper tortor vitae tempor. Aenean est purus, feugiat finibus quam quis, laoreet facilisis ante. Duis ullamcorper felis a sodales viverra. Aliquam in feugiat felis. Nulla a elit quam. Sed ultricies, elit vel tristique egestas, neque lacus vehicula libero, vel mattis dolor ex non diam. Donec varius neque id velit interdum eleifend.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>
