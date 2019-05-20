@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Vaja4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Vaja4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <!--grid naj ima 2 vrstici-->
+        <!--najprej naredi 
+        relative panel, gumb, naslov, za iskanje-->
+        <!--za iskanje= textbox PlaceholderText="Išči" 
+        in gumb dodate ikono za iskanje-->
+        <!--splitview v vrstici 1., Pane naj vsebuje 
+        izbire ListBox klik na hamburger gumb iz vrstice zgoraj
+        pokaže tekst, sicer so vidne samo ikone,
+        Content naj bo samo en Frame-->  
+        
+    </Grid>
+</Page>

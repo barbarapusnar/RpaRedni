@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Vsebniki.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Vsebniki"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="250"/>
+            <RowDefinition />
+            <RowDefinition Height="250" />
+            <RowDefinition/>
+            <RowDefinition Height="250"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="700"/>
+        </Grid.ColumnDefinitions>
+        <!--desni del-->
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="1" >
+            <TextBlock TextWrapping="Wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquam libero vulputate velit facilisis ullamcorper. Donec rutrum malesuada tellus non euismod. Cras accumsan consectetur velit eu vestibulum. Morbi ac eros in ex facilisis dapibus. Vivamus eleifend blandit leo vitae elementum. Nullam vel quam sollicitudin ligula aliquet ullamcorper vitae vitae nibh. Cras dui neque, fermentum ut varius vel, egestas sit amet est. Mauris eu volutpat turpis. Sed aliquet vulputate aliquam. Proin sollicitudin lectus ut gravida feugiat. Donec eget luctus eros, id aliquam mauris. Curabitur rutrum erat nibh, ac congue nisi placerat sed.</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Height="30" Width="100" Fill="Green"/>
+                <Rectangle Height="30" Width="100" Fill="Black"/>
+                <Rectangle Height="30" Width="100" Fill="Red"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
